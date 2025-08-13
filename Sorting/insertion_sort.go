@@ -1,6 +1,4 @@
-package main 
-
-import "fmt"
+package main
 
 func InsertionSort(arr []int) {
 	n := len(arr)
@@ -16,9 +14,9 @@ func InsertionSort(arr []int) {
 	}
 }
 
-func main() {	
-	numbers := []int{64, 34, 25, 12, 22, 11, 90}
-	fmt.Println("Before sorting:", numbers)
-	InsertionSort(numbers)
-	fmt.Println("After sorting:", numbers)
-}
+// func main() {
+// 	numbers := []int{64, 34, 25, 12, 22, 11, 90}
+// 	fmt.Println("Before sorting:", numbers)
+// 	InsertionSort(numbers)
+// 	fmt.Println("After sorting:", numbers)
+// }
